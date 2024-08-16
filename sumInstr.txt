@@ -1,0 +1,77 @@
+Given the following conversation, give a Title, Time and Money information, and a paragraph summary in the specified langauge. Here is an example:
+
+Language: English
+
+Example 1:
+
+Conversation:
+
+User: السلام عليكم ابي احد يجي ينظف المكيف 
+Assistant: اهلا و سهلا ابشر، كم عندك مكيف تبي تنظفه ، هل المكيفات مركزية ولا وحدات؟
+User: عندي ثلاث و كلهم وحدات
+Assistant: حلو، متى تبي الفريق يجي؟
+User: اسرع شي تكفى
+Assistant: ولا يهمك، ارسلي موقعك او اوصفه لي 
+User: latitude: 24.763788223267, longitude: 46.641929626465
+System: الفريق يحتاج اربعين دقيقه للوصول الى بيت العميل
+Assistant: جميل، طلبت تنظيف ثلاث مكيفات و السعر الإجمالي هو ثمانين ريال. الفريق يبعد اربعين دقيقه عنك و يحتاجون عشرين دقيقة لتنظيف، تبي تأكد الطلب؟ 
+
+Client: ايه
+
+Assistant: شكرا لك! جايينك بالطريق ان شاء الله
+
+Output:
+
+Title: 3 AC Unit Clean Up Opportunity
+Time and Money: As soon as possible, 88 SAR
+Summary: The client wants 3 AC Units to be cleaned as soon as possible and the total price for the service is 80 Riyals. 
+
+Language: Urdu
+
+Example 2:
+
+Conversation:
+
+User: السلام عليكم، عندي مشكلة في الكهرباء واحتاج فني كهربائي 
+Assistant: وعليكم السلام، أهلاً وسهلاً، تقدر توضح لي المشكلة بالضبط؟ هل تبي زيارة عامة أو إصلاح أجزاء معينة؟ 
+User: عندي مشكلة في الإضاءة، أعتقد أن المفاتيح خربانة 
+Assistant: تمام، هل اشتريت المفاتيح الجديدة أو تحتاج نوفرها لك؟ 
+User: لا، ما اشتريتها، تقدرون تجيبونها معكم؟ 
+Assistant: طبعاً، متى تبي الفريق يجي؟ 
+User: بكرة بعد الظهر 
+Assistant: ولا يهمك، ارسل لي موقعك أو اوصفه لي 
+User: latitude: 24.774265, longitude: 46.738586 
+System: الفريق يحتاج ثلاثين دقيقة للوصول إلى بيت العميل 
+Assistant: جميل، طلبت إصلاح المفاتيح والسعر الإجمالي هو 136 ريال (86 ريال للخدمة + 50 ريال للمفاتيح). الفريق يبعد ثلاثين دقيقة عنك ويحتاجون عشرين دقيقة للإصلاح، تبي تأكد الطلب؟
+Client: نعم، أكيد
+Assistant: شكراً لك! جايينك بالطريق ان شاء الله
+
+Output:
+
+Title: لائٹس ٹھیک کرنے کا موقع
+Time and Money: کل دوپہر 136 ریال
+Summary: کلائنٹ اپنے لائٹ بلب ٹھیک کرنا چاہتے ہیں اور سمجھتے ہیں کہ چابی خراب ہے۔ انہیں کل دوپہر مدد درکار ہے اور کام کی کل قیمت 136 ریال ہے
+
+
+Example 3:
+
+Conversation:
+User: السلام عليكم، ابي احد يركب خلاط حوض الغسيل 
+Assistant: وعليكم السلام، أهلاً وسهلاً، هل اشتريت الخلاط الجديد أو تحتاج نوفره لك؟ 
+User: نعم، اشتريته 
+Assistant: حلو، متى تبي الفريق يجي؟ 
+User: بأقرب وقت 
+Assistant: ولا يهمك، ارسل لي موقعك أو اوصفه لي 
+User: latitude: 21.4225, longitude: 39.8262 
+System: الفريق يحتاج ساعة للوصول إلى بيت العميل 
+Assistant: جميل، طلبت تركيب خلاط حوض الغسيل والسعر الإجمالي هو 99 ريال. الفريق يبعد ساعة عنك ويحتاجون عشرين دقيقة للتركيب، تبي تأكد الطلب؟
+Client: ايه، أكيد
+Assistant: شكراً لك! جايينك بالطريق ان شاء الله
+
+Language: French
+
+Output: 
+
+Title: Opportunité d'installation d'un mélangeur de lavabo
+Time and Money: Dès que possible, 99 SAR
+Summary: Le client souhaite installer un nouveau mélangeur de lavabo dès que possible. Le prix total du service est de 99 riyals. L'équipe est à une heure de distance et le travail prendra environ vingt minutes.
