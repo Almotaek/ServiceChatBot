@@ -34,3 +34,4 @@ Product Components
 5. run the ngrok tunnel by ngrok http --domain= newurl 80
 6. run echo.py
 
+![alt text](https://github.com/Almotaek/ServiceChatBot/blob/main/InfoFlow.png)
