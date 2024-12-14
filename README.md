@@ -25,4 +25,12 @@ Product Components
 9. Customers are asked to rate their experience in terms of time, quality, and cost
 10. Repeat 🙂
 
+# How to run it locally
+
+1. Open the MVP File via visual code
+2. Open Meta, Glitch, OpenAI, and Ngrok
+3. Regenerate access tokens (meta, openai) and update in the env file and glitch
+4. Generate a new ngrok link and add it to the glitch code
+5. run the ngrok tunnel by ngrok http --domain= newurl 80
+6. run echo.py
 
